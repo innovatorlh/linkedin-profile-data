@@ -1,0 +1,11 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+CONFIG_PERSONAL_EMAIL_API_ENDPOINT = os.getenv('PERSONAL_EMAIL_API_ENDPOINT')
+CONFIG_PERSONAL_CONTACT_NUMBER_API_ENDPOINT = os.getenv('PERSONAL_CONTACT_NUMBER_API_ENDPOINT')
+CONFIG_API_TOKEN = os.getenv('API_TOKEN')
+
+
+
